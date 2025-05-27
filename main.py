@@ -9,8 +9,8 @@ from typing import Dict, List, Any
 class VoiceflowCLI:
     def __init__(self, user_id=None, message_type=None):
         self.api_key = "VF.DM.68121e4841b879c6b17cb621.TJDyOfUFvptKt3hv"
-        self.project_id = "680fa8986a7a57031aa81112"
-        self.version_id = "680fa8986a7a57031aa81112"  # Set versionID same as projectID
+        self.project_id = "680fa8986a7a57031aa81111"
+        self.version_id = "680fa8986a7a57031aa81111"  # Set versionID same as projectID
         self.base_url = "https://general-runtime.voiceflow.com"
         self.api_url = "https://api.voiceflow.com/v2"
         self.user_id = user_id or "user-456"  # Use provided user_id or default
